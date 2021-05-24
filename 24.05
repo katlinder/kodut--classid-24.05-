@@ -1,0 +1,15 @@
+Base class - baas kust teised classid tulevad. On vajalik uue klassi loomisel, mis kasutab baas classi koodi.
+structs - andmete kogu silt, mis annab grupile nime, et seda saaks hiljem lihtsalt viidata. 
+Enums - määrab ära konstatide grupi
+Partial  -  saab erladi grupitada classi, structi, interface või meetotit mitme algse filina. Need liidetakse kui aplikatsioon pannakse tööle.
+static - ei saa pärida teisest classist. 
+abstract - saab luua class’i mis pole valmis
+Interface - abstraktne klass, saab sisaldada ainult abstraktset sisu 
+Public - saab classidele ligi, kõige üldine viis, pole ühtegi piirangut. 
+Private- saab ligi ainult classi “kehale”
+Sealed - takistab teisi classe sellelt kehalt võtmast
+Protected - seda tüüpi elementi saab võtta ainult sama classi koodiga
+Internal - saab ligi ainult sama .exe või .dll koodiga
+Protected internal - ligipääs on määratud ainult selle komplekti
+
+
